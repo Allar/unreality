@@ -3,8 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   devServer: {
-    static: './dist',
-    watchContentBase: true,
+    static: './dist'
   },
   output: {
     filename: 'bundle.js',
